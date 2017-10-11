@@ -15,12 +15,12 @@ Let's warm up by learning to read tests and write code to match a test's expecta
 To start, we need to fork the repository and install `testem`, a Node test-runner that will run your test and code.
 
 1. **Fork** the repository to your account. (If you're taking this assessment through LearnDot, there will be a button for this at the bottom of the page!)
-2. Go to your own repositories on GitHub and **clone the FullstackTestFirst** repository link. (LearnDot will also provide this link for you)
+2. Go to your own repositories on GitHub and **clone the TestFirst** repository link. (LearnDot will also provide this link for you)
 3. Use the link in the `git clone` then follow the rest of the commands.
 
 ```
-$ git clone https://github.com/{{your user name}}/FullstackTestFirst-Part-1.git
-$ cd FullstackTestFirst
+$ git clone https://github.com/awronka/test_first_part_one.git
+$ cd test_first_part_one
 $ npm install -g testem
 ```
 
