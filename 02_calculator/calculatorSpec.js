@@ -46,4 +46,10 @@ describe("Create a Calculator", function() {
     calculator.subtract(2);
     expect(calculator.value()).toEqual(1);
   });
+
+  it("can multiply two numbers", function() {
+    calculator.multiply(3,2);
+    expect(calculator.value()).toEqual(6);
+  });
 });
+
