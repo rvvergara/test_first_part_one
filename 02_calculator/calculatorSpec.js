@@ -47,8 +47,9 @@ describe("Create a Calculator", function() {
     expect(calculator.value()).toEqual(1);
   });
 
-  it("can multiply two numbers", function() {
-    calculator.multiply(3,2);
+  it("can multiply", function() {
+    calculator.add(3);
+    calculator.multiply(2);
     expect(calculator.value()).toEqual(6);
   });
 });

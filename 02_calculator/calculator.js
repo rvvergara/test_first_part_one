@@ -10,8 +10,8 @@ function createCalculator(){
         subtract: function(num){
             this.display-=num;
         },
-        multiply: function(x,y){
-            if(!this.display) this.display+=(x*y)
+        multiply: function(num){
+            if(this.display) this.display*=num;
             else return 0;
         }
     }
