@@ -8,6 +8,8 @@ describe("Calculator using reverse polish notation", function() {
     rpnCalculator = new RPNCalculator();
   });
 
+  // added
+  
   it("adds two numbers", function() {
     rpnCalculator.push(2);
     rpnCalculator.push(3);
